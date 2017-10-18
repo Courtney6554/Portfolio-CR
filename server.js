@@ -1,7 +1,7 @@
 var express = require("express");
 
 var app = express();
-var PORT = procdss.env.PORT || 3002;
+var PORT = process.env.PORT || 3002;
 
 require("./routes/route.js");
 
